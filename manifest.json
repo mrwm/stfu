@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "stfu",
+    "description": "SPEED THE F* (VIDEO) UP",
+    "version": "1.0.0",
+    "homepage_url": "https://github.com/mrwm/stfu",
+	"icons": {
+		"48": "icons/ext-48.png"
+	},
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "menus"
+    ]
+}
